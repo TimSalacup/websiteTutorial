@@ -203,8 +203,26 @@ footer{
         text-align: center;
     }
 
+    h2{
+        font-size: 48px;
+    }
     .subheader{
         text-align: center;
         font-size: 28px;
+    }
+
+    .navigation{
+        display: none;
+    }
+    .section__description{
+        display: flex;
+        flex-direction: column;
+    }
+    .section__description--para{
+        text-align: justify;
+    }
+    .about__img--wrapper{
+        width: 65%;
+        margin: 48px 0;
     }
 }
